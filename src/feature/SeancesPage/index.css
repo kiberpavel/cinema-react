@@ -1,0 +1,21 @@
+.seance-film-date {
+  border-bottom: 2px black solid;
+  width: 950px;
+  display: flex;
+  justify-content: center;
+}
+
+.seance-film-date p {
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.seances-page-current-hall {
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  margin-left: 300px;
+  font-size: 20px;
+}

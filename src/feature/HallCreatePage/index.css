@@ -1,0 +1,62 @@
+.HallCreate {
+  display: flex;
+}
+
+.hall-name-wrap {
+  display: flex;
+}
+
+.hall-name-wrap h1 {
+  margin-right: 20px;
+  font-size: 23px;
+}
+
+.hall-name-wrap input {
+  font-size: 20px;
+}
+
+.create-hall-wrap {
+  display: flex;
+  margin-top: 90px;
+}
+
+.create-hall-inputs {
+  width: 600px;
+  padding-left: 100px;
+}
+
+.create-hall-info {
+  width: 600px;
+}
+
+.create-hall-distance {
+  margin-bottom: 60px;
+}
+
+.create-hall-title {
+  font-size: 25px;
+  margin: 0 auto;
+  width: 50px;
+  padding-bottom: 40px;
+}
+
+.create-hall-screen {
+  width: 600px;
+  height: 40px;
+}
+
+.create-hall-screen__dark {
+  background-color: #9fff16;
+  border: 2px white solid;
+}
+
+.create-hall-screen__light {
+  background-color: #5700e2;
+  border: 2px black solid;
+}
+
+.create-hall-screen h1 {
+  width: 45px;
+  margin: 0 auto;
+  padding-top: 10px;
+}

@@ -1,0 +1,88 @@
+.FilmNav {
+  width: 200px;
+  min-width: 200px;
+  height: 880px;
+}
+
+.film-nav__dark {
+  background-color: #9fff16;
+  color: black;
+}
+
+.film-nav__light {
+  background-color: #5700e2;
+}
+
+.list-item {
+  min-width: 50px;
+  padding-right: 140px;
+  cursor: pointer;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  padding-left: 10px;
+}
+
+.list-item__dark {
+  border: 3px white solid;
+  background-color: #9fff16;
+  color: black;
+}
+
+.list-item__light {
+  border: 3px black solid;
+  background-color: #5700e2;
+  color: white;
+}
+
+.logout {
+  margin-top: 520px;
+}
+
+.first-element {
+  margin-top: 0;
+}
+
+.FilmNav a {
+  text-decoration: none;
+  color: white;
+}
+
+.logout-button {
+  width: 185px;
+  height: 100%;
+  border: 0;
+  padding-right: 140px;
+  cursor: pointer;
+}
+
+.logout-button__dark {
+  background-color: #9fff16;
+  color: black;
+}
+
+.logout-button__light {
+  background-color: #5700e2;
+  color: white;
+}
+
+.switcher {
+  width: 185px;
+  height: 100%;
+  border: 0;
+  padding-right: 145px;
+  cursor: pointer;
+  text-decoration: none;
+  background-color: rgba(28, 28, 28, 0);
+}
+
+.switcher-dark {
+  background-color: #9fff16;
+  color: black;
+}
+
+.switcher-light {
+  background-color: #5700e2;
+  color: white;
+}

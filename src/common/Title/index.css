@@ -1,0 +1,29 @@
+.FilmTitle {
+  width: 1200px;
+  min-width: 1200px;
+  height: 60px;
+  min-height: 60px;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  justify-content: center;
+}
+
+.title-dark {
+  border-bottom: 3px white solid;
+  border-top: 3px white solid;
+  border-right: 3px white solid;
+  background-color: #9fff16;
+  color: black;
+}
+
+.title-light {
+  border-bottom: 3px black solid;
+  border-top: 3px black solid;
+  border-right: 3px black solid;
+  background-color: #5700e2;
+  color: white;
+}

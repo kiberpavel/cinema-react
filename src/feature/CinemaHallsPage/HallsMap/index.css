@@ -1,0 +1,37 @@
+.HallMap {
+  display: flex;
+  justify-content: center;
+  width: 1200px;
+  max-width: 1200px;
+  flex-wrap: wrap;
+  margin-top: 60px;
+}
+
+.create-hall-button {
+  width: 120px;
+  height: 60px;
+  font-size: large;
+  margin-left: 80px;
+}
+
+.create-hall-button__dark {
+  background-color: #9fff16;
+  border: 3px white solid;
+}
+
+.create-hall-button__light {
+  background-color: #5700e2;
+  border: 3px black solid;
+}
+
+.create-hall-link {
+  text-decoration: none;
+}
+
+.create-hall-link__dark {
+  color: black;
+}
+
+.create-hall-link__light {
+  color: white;
+}

@@ -1,0 +1,50 @@
+.FilmMap {
+  display: flex;
+  justify-content: center;
+  width: 1200px;
+  max-width: 1200px;
+  flex-wrap: wrap;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  justify-content: center;
+  border: 3px black solid;
+  background-color: #61dafb;
+}
+
+.attributes {
+  display: flex;
+  justify-content: space-between;
+  width: 1000px;
+  margin-left: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.create-button {
+  width: 120px;
+  height: 60px;
+  font-size: large;
+  cursor: pointer;
+}
+
+.button-dark {
+  background-color: #9fff16;
+  border: 3px white solid;
+  color: black;
+}
+
+.button-light {
+  background-color: #5700e2;
+  border: 3px black solid;
+  color: white;
+}
+
+.film-clicked {
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+}

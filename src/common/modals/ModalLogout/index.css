@@ -1,0 +1,42 @@
+.ModalLogout {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.4);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  transform: scale(0);
+}
+
+.modal-content {
+  border-radius: 12px;
+  background-color: white;
+  height: 200px;
+  width: 400px;
+  padding: 20px;
+}
+
+.modal-content p {
+  font-weight: bold;
+  margin: 0 auto;
+  width: 180px;
+}
+
+.ModalLogout.active {
+  transform: scale(1);
+}
+
+.modal-content button {
+  margin-left: 95px;
+  background: aliceblue;
+  width: 30px;
+  border-radius: 5px;
+}
+
+.modal-content p {
+  margin-bottom: 50px;
+}

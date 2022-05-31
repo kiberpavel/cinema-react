@@ -1,0 +1,12 @@
+.HallMatrix {
+  margin-top: 40px;
+  width: 600px;
+}
+
+.current-seat {
+  width: 25px;
+  height: 25px;
+  border: 2px black solid;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}

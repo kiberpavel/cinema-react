@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+}
+
+.FilmList {
+  width: 380px;
+  margin-right: 220px;
+  margin-bottom: 40px;
+}
+
+.list {
+  list-style-type: none;
+}
+
+.photo {
+  width: 300px;
+  height: 400px;
+  max-width: 300px;
+  max-height: 400px;
+}
+
+.film-name {
+  width: 300px;
+  max-width: 300px;
+  display: flex;
+  justify-content: center;
+}
+
+.select-film {
+  background-color: red;
+}
+
+.wrapper-film {
+  display: flex;
+  justify-content: center;
+}

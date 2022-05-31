@@ -1,0 +1,24 @@
+version: '3'
+services:
+  app:
+    container_name: app-container
+    image: app-react-image
+    restart: always
+    build:
+      context: .
+      dockerfile: React.Dockerfile
+    ports:
+      - "4000:80"
+    volumes:
+      - ./package.json:/app/package.json
+      - .:/app
+  json-server:
+    container_name: json-server-container
+    image: json-server-image
+    build:
+      context: .
+      dockerfile: server/Json.Dockerfile
+    volumes:
+      - ./server:/server
+    ports:
+      - "3001:3001"

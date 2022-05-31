@@ -1,0 +1,29 @@
+.HallCounter {
+  display: flex;
+  align-items: center;
+  width: 400px;
+}
+
+.hall-counter-name {
+  margin-right: 20px;
+  font-size: 23px;
+}
+
+.hall-counter-meter {
+  width: 100px;
+  border: 2px black solid;
+}
+
+.hall-counter-meter h1 {
+  width: 15px;
+  margin: 0 auto;
+  font-size: 15px;
+}
+
+.hall-counter-button-meter {
+  width: 50px;
+  font-size: 45px;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+}

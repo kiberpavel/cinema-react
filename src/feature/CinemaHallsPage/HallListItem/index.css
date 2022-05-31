@@ -1,0 +1,35 @@
+.HallList {
+  margin-right: 220px;
+  margin-bottom: 40px;
+}
+
+.number-of-seats {
+  padding-top: 295px;
+  margin: 0 auto;
+  width: 60px;
+  min-width: 60px;
+}
+
+.hall-wrap {
+  width: 300px;
+  height: 400px;
+  font-size: larger;
+  font-weight: bold;
+}
+
+.hall-wrap__dark {
+  border: 3px white solid;
+}
+
+.hall-wrap__light {
+  border: 3px black solid;
+}
+
+.hall-name-wrap {
+  margin-top: 20px;
+}
+
+.hall-name-wrap p {
+  font-size: larger;
+  font-weight: bold;
+}

@@ -1,0 +1,41 @@
+.FilmCreate {
+  display: flex;
+  width: 1000px;
+  max-width: 1000px;
+  font-size: 25px;
+}
+
+.wrap-radio {
+  display: flex;
+}
+
+.wrap-distance {
+  margin-bottom: 30px;
+}
+
+.description {
+  margin-bottom: 10px;
+}
+
+.textarea-film-create {
+  width: 600px;
+  height: 275px;
+  font-size: 25px;
+}
+
+#name-film-sav {
+  width: 300px;
+  height: 30px;
+  font-size: 25px;
+}
+
+.wrap-inputs {
+  margin-left: 40px;
+}
+
+.save-film-button {
+  margin-top: 63px;
+  width: 60px;
+  height: 30px;
+  background-color: green;
+}
